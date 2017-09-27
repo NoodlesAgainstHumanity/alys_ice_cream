@@ -1,0 +1,216 @@
+@font-face{
+	font-family:mainText;
+	src:url(JamSessionsPersonalUse.ttf);
+}
+/*@font-face{
+	font-family:navText;
+	src:url(BebasNeue.ttf); 
+}*/
+@font-face{
+	font-family:navText;
+	src:url(ParisienNight.ttf);
+}
+html{
+	-moz-transform:scale(.8);
+	-moz-transform-origin: 0% 0%;
+	-webkit-transform:scale(.8);
+	-webkit-transform-origin: 0% 0%;
+	-ms-transform:scale(.8);
+	-ms-transform-origin: 0% 0%;
+}
+body{
+	margin:0;
+	padding:0;
+	
+	background: -webkit-linear-gradient(45deg,#93278F,#00A99D);
+	background: linear-gradient(45deg,#93278F,#00A99D);
+	background-attachment: fixed;
+	
+}
+#container{
+	width:2000px;
+	height:100%;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+#container2{
+	margin:0;
+	padding:0;
+	width:2000px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#top_navigation{
+	height:250px;
+	width:100%;
+	background-color:transparent;
+}
+#logo
+{
+    margin-left:50px;
+    margin-top:-40px;   
+	width: 450px;
+	height: 450px;
+	float:left;
+	background-color:transparent;
+	z-index:100;
+}
+#topNav{
+	background-color:transparent;
+	position:relative;
+	top:80px;
+	list-style-type:none;
+	text-align:center;	
+	width:65%;
+	display:inline-block;
+	font-family:navText;
+	float:left;
+	padding:0;
+}
+#topNav li{
+	display:inline-block;
+	margin-right:40px;
+	padding-left:12px;
+	padding-right:12px;
+	color:white;
+	font-size:70px;
+	font-weight:bold;
+}
+#topNav a li{
+	text-decoration:none;
+	color:white;
+}
+#topNav li:hover{
+	position:relative;
+	top:-15px;
+	border-bottom:8px solid #93278F;
+}
+#content{
+	margin:0;
+	padding:0;
+	margin-left:auto;
+	margin-right:auto;
+	height:800px;
+	background-color:purple;
+	background-image:url(2560x1600-1372127-ice-cream.jpg);
+	background-position:center;
+	border-top:10px solid white;
+	box-shadow: -1px -1px 5px #323232;
+	/*background-repeat:no-repeat;*/	
+}
+#mainText_01{
+	width:1200px;
+	margin-top:250px;
+	padding:0;
+	font-size:100px;
+	font-family:mainText,verdana, sans-serif;
+	color:white;
+	margin-left:auto;
+	margin-right:auto;	
+	text-shadow: -2.5px 0 black, 0 2.5px black, 2.5px 0 black, 0 -2.5px black;
+}
+#mainButtons{
+	list-style-type:none; /* removes bullets */
+	font-family:Arial, sans-serif;
+	text-align:center;
+	margin-top:100px;
+	text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
+}
+#mainButtons li{
+	display:inline-block;  /* horizontal layout */
+	padding:5px;
+	padding-right:10px;
+	margin-right:40px;
+}
+#mainButtons a li{
+	text-decoration:none;
+	color:white;
+	font-size:40px;
+	font-family:verdana;
+	font-style:italic;
+	font-weight:lighter;
+	height:50px;
+	line-height:50px;
+	border:3px solid white;
+	border-radius:6px;
+}
+#mainButtons a li:hover{
+	background-color:#93278F;
+	border:3px solid transparent;
+	text-shadow: none;
+}
+#bottomBorder{
+	height:10px;
+	background-color:white;
+	box-shadow: 1px 2px 5px #323232;
+	margin:0;
+	padding:0;
+}
+#footer{
+	height:100px;
+	background-color:transparent;
+	padding:0;
+	margin:0;
+}
+#footer_nav{
+	list-style-type:none; /* removes bullets */
+	font-family:Arial, sans-serif;
+	text-align:center;
+	margin-top:50px;
+	margin-left:auto;
+	margin-right:auto;
+	float:left;
+}
+#footer_nav li{
+	display:inline-block;  /* horizontal layout */
+	text-decoration:none;
+	color:white;
+	font-size:24px;
+	font-style:italic;
+	margin-left:100px;
+}
+#social_nav{
+	padding-top:10px;
+	text-align: center;
+	margin-top:0px;
+	margin-right:100px;
+	float:right;
+}
+.fa {
+	padding:15px;
+   margin:0;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+.fa-facebook-square {
+    background: transparent;
+    color: white;
+}
+.fa-instagram {
+    background: transparent;
+    color: white;
+}
+.fa-twitter-square {
+    background: transparent;
+    color: white;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
