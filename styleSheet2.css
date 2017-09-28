@@ -1,0 +1,324 @@
+@font-face{
+	font-family:mainText;
+	src:url(JamSessionsPersonalUse.ttf);
+}
+@font-face{
+/*	font-family:navText;
+	src:url(BebasNeue.ttf); */
+}
+@font-face{
+	font-family:navText;
+	src:url(ParisienNight.ttf);
+}
+@font-face{
+	font-family:menuItems;
+	src:url(LemonMilk.ttf);
+}
+
+/*html{
+	-moz-transform:scale(.72);
+	-moz-transform-origin: 20% 0%;
+	-webkit-transform:scale(.72);
+	-webkit-transform-origin: 20% 0%;
+	-ms-transform:scale(.72);
+	-ms-transform-origin: 20% 0%;
+	width:2000px;
+	margin-left:auto;
+	margin-right:auto;
+}*/
+body{
+	margin:0;
+	padding:0;
+	background: -webkit-linear-gradient(45deg,#93278F,#00A99D);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#93278F, endColorstr=#00A99D);
+	background-position: center;
+	background-attachment: fixed;
+	
+}
+#container{
+	width:100%;
+	margin:0;
+}
+#container2{
+	margin:0;
+	padding:0;
+	margin-left:auto;
+	margin-right:auto;
+	width:1400px;
+}
+#top_navigation{
+	height:250px;
+	width:100%;
+	background-color:transparent;
+	position:relative;
+	top:140px;
+	right:-290px;
+}
+#corner{
+    width: 250px;
+    height: 125px;
+    background: rgba(255, 255, 255, 0.4);
+	color:white;
+	float:right;
+	text-align:center;
+	font-family:roboto;
+	font-weight:bold;
+    box-shadow: -2px -2px 5px #323232;
+
+}
+#logo
+{  
+	width:500px;
+	background-color:transparent;
+	position:absolute; /* Allows logo to float over other html objects without distrupting their position */
+	float:left;
+	margin:0;
+	margin-top:-50px;
+	margin-left:-150px;
+	padding:0;
+	z-index:1050;
+	
+}
+#topNav{
+	background-color:transparent;
+	position:relative;
+	left:30px;
+	list-style-type:none;
+	text-align:center;	
+	width:70%;
+	display:inline-block;
+	font-family:navText;
+	float:left;
+	padding:0;
+}
+#topNav li{
+	display:inline-block;
+	margin-right:40px;
+	padding-right:12px;
+	color:white;
+	font-size:60px;
+	font-weight:bold;
+}
+#topNav a li{
+	text-decoration:none;
+	color:white;
+}
+#topNav li:hover{
+	position:relative;
+	top:-15px;
+	border-bottom:8px solid #93278F;
+}
+/*#topBorder{
+	height:9px;
+	width:1900px;
+	background-color:white;
+	box-shadow: 1px 2px 5px #323232;
+	z-index:1050;
+	margin-left:auto;
+	margin-right:auto;
+	
+}*/
+#content{
+	margin:0;
+	padding:0;
+	margin-top:20px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:white;
+	box-shadow: -1px -1px 5px #323232;
+	/*background-repeat:no-repeat;*/
+	height:800px;
+	width:1600px;
+}
+#topOption{
+	height:49%;
+	width:100%;
+	padding-top:1px;
+}
+#topOption a{
+	text-decoration:none;
+}
+#topOption h1{
+	position:relative;
+	left:-20px;
+	bottom:-300px;
+	text-align:left;
+	padding:0;
+	margin:0;
+	margin-left:40px;
+	color:white;
+	font-size:50px;
+	font-family:menuItems;
+	text-shadow: -2.5px 0 #93278F, 0 2.5px #93278F, 2.5px 0 #93278F, 0 -2.5px #93278F;
+	}
+#topOption h3{
+	position:relative;
+	top:220px;
+	text-align:right;
+	padding:0;
+	margin:0;
+	margin-right:20px;
+	color:black;
+	font-size:40px;
+	float:right;
+	font-family:menuItems;
+	text-shadow: -1.5px 0 white, 0 1.5px white, 1.5px 0 white, 0 -1.5px white;
+	visibility:hidden;
+}
+#bottomOption{
+	height:49%;
+	width:100%;
+}
+#bottomOption a{
+	text-decoration:none;
+}
+#bottomOption h1{
+	position:relative;
+	bottom:-300px;
+	text-align:left;
+	padding:0;
+	margin:0;
+	margin-left:40px;
+	color:white;
+	font-size:50px;
+	font-family:menuItems;
+	text-shadow: -2.5px 0 #93278F, 0 2.5px #93278F, 2.5px 0 #93278F, 0 -2.5px #93278F;
+	left:-20px;
+}
+#bottomOption h3{
+	position:relative;
+	top:220px;
+	text-align:right;
+	padding:0;
+	margin:0;
+	margin-right:20px;
+	color:black;
+	font-size:40px;
+	float:right;
+	font-family:menuItems;
+	text-shadow: -1.5px 0 white, 0 1.5px white, 1.5px 0 white, 0 -1.5px white;
+	visibility:hidden;
+}
+#firstItem{
+	margin:0;
+	height:398px;
+	width:32.8%;
+	border-left:1px solid white;
+	border-right:1px solid white;
+	background-size:858px 598px;
+	background-position:50% 50%;
+	padding:0;
+	float:left;
+	position:relative;
+}
+#firstItem:hover{
+	background-size:1200px 898px;
+    background-position:50% 50%;
+    transition:all 0.1s ease;
+    -webkit-transition:all 0.1s ease;
+    -o-transition:all 0.1s ease;
+    -moz-transition:all 0.1s ease;
+}
+#firstItem:hover h1{
+	color:#9932CC;
+	top:120px;	
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+#firstItem:hover h3{
+	visibility:visible;
+}
+#optionLeft{
+	height:398px;
+	width:32.8%;
+	position:relative;
+	border-left:3px solid white;
+	border-right:3px solid white;
+	background-size:658px 398px;
+	background-position:50% 50%;
+	float:left;
+}
+#optionLeft:hover{
+	background-size:1300px 898px;
+    background-position:50% 50%;
+    transition:all 0.1s ease;
+    -webkit-transition:all .1s ease;
+    -o-transition:all 0.1s ease;
+    -moz-transition:all 0.1s ease;
+	color:black;
+}
+#optionLeft:hover h1{
+	color:#9932CC;
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+	top:120px;	
+}
+#optionLeft:hover h3{
+	visibility:visible;
+}
+#bottomBorder{
+	height:9px;
+	width:33%;
+	background-color:white;
+	box-shadow: 1px 2px 5px #323232;
+	z-index:1050;
+	margin-left:auto;
+	margin-right:auto;
+}
+#footer{
+	width:1600px;
+	height:100px;
+	background-color:transparent;
+	padding:0;
+	margin:0;
+	margin-left:auto;
+	margin-right:auto;
+}
+#footer_nav{
+	list-style-type:none; /* removes bullets */
+	font-family:Roboto,Arial, sans-serif;
+	text-align:center;
+	margin-top:50px;
+	margin-left:auto;
+	margin-right:auto;
+	float:left;
+}
+#footer_nav li{
+	display:inline-block;  /* horizontal layout */
+	text-decoration:none;
+	color:white;
+	font-size:24px;
+	margin-left:100px;
+	font-style:italic;
+}
+#social_nav{
+	padding-top:10px;
+	text-align: center;
+	margin-top:0px;
+	margin-right:100px;
+	float:right;
+}
+#social_nav a{
+	text-decoration:none;
+}
+.fa {
+	padding:15px;
+   margin:0;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+.fa-facebook-square {
+    background: transparent;
+    color: white;
+}
+.fa-instagram {
+    background: transparent;
+    color: white;
+}
+.fa-twitter-square {
+    background: transparent;
+    color: white;
+}
+.fa:hover {
+    opacity: 0.7;
+}

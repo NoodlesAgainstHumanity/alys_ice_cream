@@ -1,0 +1,393 @@
+@font-face{
+	font-family:mainText;
+	src:url(JamSessionsPersonalUse.ttf);
+}
+@font-face{
+/*	font-family:navText;
+	src:url(BebasNeue.ttf); */
+}
+@font-face{
+	font-family:navText;
+	src:url(ParisienNight.ttf);
+}
+body{
+	margin:0;
+	padding:0;
+	background: -webkit-linear-gradient(45deg,#93278F,#00A99D);
+	zoom: 53.8%;
+}
+#container{
+	width:2500px;
+	height:100%;
+	margin-left:auto;
+	margin-right:auto;
+	/*background: -webkit-linear-gradient(45deg,#93278F,#00A99D);*/
+
+}
+#container2{
+	margin:0;
+	padding:0;
+	margin-left:auto;
+	margin-right:auto;
+	width:2000px;
+}
+#top_navigation{
+	height:250px;
+	width:100%;
+	background-color:transparent;
+}
+
+#corner
+{
+     width: 250px;
+    height: 125px;
+	color:white;
+    margin-top: 0;
+	margin-right:0;
+	float:right;
+	text-align:center;
+	font-family:roboto;
+    padding-top: 0;
+	background: rgba(255, 255, 255, 0.4);
+    box-shadow: -2px -2px 5px #323232;
+}
+
+#logo
+{
+    margin-left:-200px;
+    margin-top:-40px;   
+	width: 450px;
+	height: 450px;
+	float:left;
+	position:relative;
+	z-index:8000;
+	/*background-color: white;*/
+	border-radius: 50%;
+}
+
+#topNav{
+	background-color:transparent;
+	position:relative;
+	top:80px;
+	margin-left:150px;
+	list-style-type:none;
+	text-align:center;	
+	width: 65%;
+	display:inline-block;
+	font-family: navText;
+	float:left;
+	padding:0;
+}
+#topNav li{
+	display:inline-block;
+	margin-right:40px;
+	padding-left:12px;
+	padding-right:12px;
+	color:white;
+	font-size:70px;
+	font-weight:bold;
+	/*background-color:black;*/ /* current style for navbar, what I have changed it to in my code is await approval from the rest of the group. */
+	/*box-shadow: -2px -2px 5px #323232;*/ /* current style for navbar, what I have changed it to in my code is await approval from the rest of the group. */
+}
+#topNav a li{
+	text-decoration:none;
+	color:white;
+}
+#topNav li:hover{
+	color:white;
+	/*background-color:transparent;*/ /* current style for navbar, what I have changed it to in my code is await approval from the rest of the group. */
+	/*background-color: white;*/
+	/*border-radius: 25px;*/
+	position: relative;
+	top: -15px;
+	border-bottom: 8px solid #93278F
+}
+#content
+{
+	margin:0;
+	padding:0;
+	margin-left:auto;
+	margin-right:auto;
+	/*background-color: #e6e6e6;*/
+	background-image: url("new_content_background_2.jpg");
+	background-size: 100%;
+	background-position-y: 450px;
+	border-top:10px solid white;
+	box-shadow: -1px -1px 5px #323232;
+	background-repeat:no-repeat;
+	height:2000px;
+	/*width:2000px;*/
+	width: 100%;
+	position:relative;
+	font-size: 40px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+
+#contenttopdiv
+{
+	width: 100%;
+	height: 40%;
+	background-color: red;
+}
+
+#banner
+{
+	width: 100%;
+	height: 100%;
+	background-image: url("new_banner.jpeg");
+	background-size: 100%;
+	border-bottom: 10px solid white;
+}
+
+#bannertopdiv
+{
+	width: 100%;
+	height: 25%;
+	background-color: transparent;
+}
+
+#bannerbottomdiv
+{
+	width: 1500px;
+	height: 75%;
+	background-color: transparent;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#bannerbottomleft
+{
+	width: 50%;
+	height: 100%;
+	background-color: transparent;
+	float: left;
+}
+
+#bannerbottomright
+{
+	width: 50%;
+	height: 100%;
+	/*background-color: white;  was #f2f2f2, changed it to white, what do you think? */
+	float: right;
+	border-top-left-radius: 40px;
+	border-top-right-radius: 40px;
+	font-family: navText;
+	font-size: 60px;
+	background: rgba(255, 255, 255, 0.7);
+}
+
+#contentbottomdiv
+{
+	width: 1500;
+	height: 60%;
+	background-color: transparent;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#contentbottomtop
+{
+	width: 100%;
+	height: 50%;
+	background-color: transparent;
+}
+
+#contentbottombottom
+{
+	width: 100%;
+	height: 50%;
+	background-color: transparent;
+}
+
+#contentbottomtopleft
+{
+	width: 50%;
+	height: 100%;
+	/*background-color: white; was #f2f2f2, changed it to white, what do you think? */
+	float: left;
+	/*line-height: 600px;*/
+	/*border-bottom-left-radius: 40px;*/
+	text-align: left;
+	background: rgba(255, 255, 255, 0.7);
+}
+
+#contentbottomtopleft ul
+{
+	list-style-type: none;
+}
+
+#contentbottomtopright
+{
+	width: 50%;
+	height: 100%;
+	background-color: #f2f2f2; /* was white, changed it to #f2f2f2, what do you think? I had it white like it was a white border on an old polaroid picture, should I swap it back? */
+	background-image: url(content_image.jpg);
+	background-size: 90%;
+	background-repeat: no-repeat;
+	background-position-x: 35px;
+	background-position-y: 40px;
+	float: left;
+}
+
+#contentbottombottomleft
+{
+	width: 50%;
+	height: 100%;
+	background-color: #f2f2f2;
+	background-image: url("kids_with_ice_cream_and_balloons.jpg");
+	background-size: 90%;
+	background-repeat: no-repeat;
+	background-position-x: 37px;
+	background-position-y: 70px;
+	float: left;
+}
+
+#contentbottombottomright
+{
+	width: 50%;
+	height: 100%;
+	/*background-color: white;  was #f2f2f2, changed it to white, what do you think? */
+	float: left;
+	background: rgba(255, 255, 255, 0.7);
+}
+
+#topOption{
+	height:400px;
+	width:2000px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:1px;
+	border-bottom:2px solid white;
+	
+}
+#topOption h1{
+	position:relative;
+	bottom:-300px;
+	text-align:left;
+	padding:0;
+	margin:0;
+	margin-left:40px;
+	color:white;
+	font-size:70px;
+	font-family:navText;
+
+}
+#bottomOption{
+	height:400px;
+	width:2000px;
+	margin-left:auto;
+	margin-right:auto;
+	left:0;
+	right:0;
+	border-top:2px solid white;
+	
+}
+#bottomOption h1{
+	position:relative;
+	bottom:-300px;
+	text-align:left;
+	padding:0;
+	margin:0;
+	margin-left:40px;
+	color:white;
+	font-size:70px;
+	font-family:navText;
+	 text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+#firstItem{
+	position:absolute;
+	height:392px;
+	width:665px;
+	left:1px;
+	border-left:3px solid white;
+	border-right:3px solid white;
+	background-position:50% 50%;
+	float:right;
+	padding:0;
+	
+}
+#optionLeft{
+	z-index:900;
+	height:392px;
+	width:658px;
+	border-left:3px solid white;
+	border-right:3px solid white;
+	background-position:50% 50%;
+	float:right;
+
+}
+#bottomBorder{
+	height:9px;
+	background-color:white;
+	box-shadow: 1px 2px 5px #323232;
+	margin:0;
+	padding:0;
+	position:relative
+}
+#footer{
+	height:100px;
+	background-color:transparent;
+	padding:0;
+	margin:0;
+}
+#footer_nav{
+	list-style-type:none; /* removes bullets */
+	font-family:Arial, sans-serif;
+	text-align:center;
+	margin-top:50px;
+	margin-left:auto;
+	margin-right:auto;
+	float:left;
+}
+#footer_nav li{
+	display:inline-block;  /* horizontal layout */
+	text-decoration:none;
+	color:white;
+	font-size:24px;
+	font-style:italic;
+	margin-left:100px;
+}
+#social_nav{
+	padding-top:10px;
+	text-align: center;
+	margin-top:0px;
+	margin-right:100px;
+	float:right;
+}
+
+button[type=submit]
+{
+	background-color: #ffc266;
+	border: none;
+	color: darkblue;
+	padding: 16px 42px;
+	text-decoration: none;
+	margin: 4px 2px;
+	cursor: pointer;
+	font-size: 12px;
+}
+
+.fa {
+	padding:15px;
+   margin:0;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+.fa-facebook-square {
+    background: transparent;
+    color: white;
+}
+.fa-instagram {
+    background: transparent;
+    color: white;
+}
+.fa-twitter-square {
+    background: transparent;
+    color: white;
+}
+.fa:hover {
+    opacity: 0.7;
+}
